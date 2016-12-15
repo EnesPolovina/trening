@@ -1,0 +1,523 @@
+/*********************
+
+    GENERAL STYLES
+
+*********************/
+
+h1 {
+    color: black;
+    align-items: center;
+}
+
+h3 {
+    color: black;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+ }
+
+
+
+
+
+/*********************
+
+     HEADER STYLES
+
+ *********************/
+
+#header {
+    background-image: url('../assets/img/bg.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.navbar-custom {
+    background-color: transparent;
+    background-image: none;
+    border: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.navigacija-linkovi li a {
+    color: #fff !important;
+    font-size: 18px;
+}
+
+.navigacija-linkovi li a:hover {
+    color: #1dd5d1 !important;
+}
+
+.navigacija-linkovi {
+    padding-top: 60px;
+    padding-right: 80px;
+}
+
+.logo img {
+    padding-left: 30%;
+    padding-top: 15%;
+    width: 300px;
+}
+
+.proba {
+    padding-top: 130px;
+}
+
+.text h1 {
+    margin-top: 0px;
+    font-size: 55px;
+}
+
+.text h1, h3 {
+    text-align: center;
+    color: #fff;
+}
+
+.text h4 {
+    text-align: right;
+}
+
+.text h3 {
+    padding-top: 40px;
+}
+
+.testCircle {
+    width: 100px;
+    height: 100px;
+    border-radius: 150px;
+    background-color: #1dd5d1;
+}
+
+.testCircle h4 {
+    color: #fff;
+    padding-top: 45%;
+    padding-left: 5%;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+
+/*********************
+
+    FLOATING BOX
+
+*********************/
+
+.header-floating-box {
+    width: 100%;
+    height: 400%;
+    border-radius: 0px;
+}
+
+.header-floating-box {
+    width: 650px;
+    height: 235px;
+    position: relative;
+    ;
+    bottom: -50px;
+    left: 0px;
+    right: 0px;
+    margin: 0px auto;
+    background-color: #f6f8fa;
+    border-radius: 0px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(100, 100, 100, 0.5);
+}
+
+.header-floating-box h3 {
+    padding-bottom: 30px;
+    margin-top: 5px;
+    color: #000;
+}
+
+.header-floating-box p {
+    padding-top: 30px;
+    color: #888;
+}
+
+.form-control {
+    width: 196px;
+    height: 60px;
+    border-radius: 0px;
+}
+.button{
+  padding-left: 0px;
+}
+
+.my-button {
+    height: 60px;
+    width: 130px;
+    background-color: #1dd5d1 !important;
+    border-radius: 0px;
+    color: #fff;
+}
+.my-button:hover{
+    background-color: #1ec3bf !important;
+    color: #fff;
+}
+
+
+
+
+/********************************
+
+      PHOTO SHOWCASE STYLES
+
+********************************/
+
+.prvi-dio {
+    padding-top: 150px;
+}
+
+.prvi-dio h3 {
+    color: #000;
+}
+
+.prvi-dio p {
+    line-height: 2;
+}
+
+.prvi-dio-slika img {
+    width: 100%;
+    height: auto;;
+}
+
+.drugi-dio {
+    padding-top: 150px;
+}
+
+.drugi-dio h3 {
+    color: #000;
+}
+
+.drugi-dio p {
+    line-height: 2;
+}
+
+.drugi-dio-slika img {
+    width: 100%;
+    height: auto;
+}
+
+.treci-dio {
+    padding-top: 150px;
+}
+
+.treci-dio h3 {
+    color: #000;
+}
+
+.treci-dio p {
+    line-height: 2;
+}
+
+.treci-dio-slika img {
+    width: 100%;
+    height: auto;
+}
+
+.cetvrti-dio {
+    padding-top: 150px;
+}
+
+.cetvrti-dio h3 {
+    color: #000;
+}
+
+.cetvrti-dio p {
+    line-height: 2;
+}
+
+.cetvrti-dio-slika img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+/*************************
+
+      ICON FEATURES
+
+*************************/
+
+.icon-features {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: #f6f8fa;
+}
+
+.icon-features h3 {
+    padding-bottom: 10%;
+    color: #000;
+}
+
+.icons h4, p {
+    text-align: center;
+}
+
+.icons img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+
+
+
+
+/*********************
+
+    TOUR CENTAR
+
+*********************/
+
+.tour-center {
+    background-color: #1e1e1e;
+}
+
+.e-tour-center h3 {
+    font-size: 3em;
+    line-height: 1.2em;
+    font-weight: 300;
+    color: #1dd5d1;
+    padding-top: 10%;
+    padding-bottom: 10px;
+}
+
+.e-tour-center p {
+    color: #b4b4b4;
+    margin-bottom: 10%;
+}
+
+.e-tour-center-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding-bottom: 10%;
+    margin-right: -100px;
+}
+
+.col-md-offset-1 {
+    margin-left: 4.333% !important;
+}
+
+
+
+/*********************
+
+      SLIDE SHOW
+
+*********************/
+.slide-show{
+    padding-top: 10%;
+    padding-bottom: 15%;
+}
+.carousel-inner img{
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.carousel-inner h4{
+    text-align: center;
+
+}
+.slide-one-r p{
+    padding-top: 20px;
+    font-size: 20px;
+}
+.slide-two-r p{
+        padding-top: 20px;
+        font-size: 20px;
+}
+.slide-three-r p{
+        padding-top: 20px;
+        font-size: 20px;
+}
+.slide-four-r p{
+        padding-top: 20px;
+        font-size: 20px;
+}
+.carousel-indicators li{
+    background-color: #797979 !important;
+}
+
+
+
+
+
+/*********************
+
+     CONTACT FORM
+
+*********************/
+.contact{
+    background-color: #f6f8fa;
+}
+.contact h3{
+    padding-top: 5%;
+    color: #000;
+    font-size: 2em;
+    font-weight: 300;
+    margin: auto;
+    text-align: center;
+}
+.form{
+    padding-top: 5%;;
+}
+.col-form-name{
+    padding-left: 118px;
+    padding-bottom: 15px;
+}
+.col-form-email{
+    padding-left: 96px;
+    margin-left: 0px !important;
+    border-radius: 0px;
+    padding-bottom: 15px;
+}
+.form-name{
+    height: 50px;
+    width: 250px;
+}
+.form-email{
+    height: 50px;
+    width: 250px;
+}
+#form-message{
+    margin-top: 10px;
+    margin-left: 4px;
+    height: 250px;
+    width: 528px;
+}
+.submit-button{
+    border-radius: 0px !important;
+    border: 0px;
+    height: 50px;
+    width: 130px;
+    background: #1dd5d1;
+}
+.submit-button:hover{
+    background-color: #1ec3bf;
+}
+.my-button-2{
+    padding-top: 10px;
+    padding-bottom: 50px;
+    position: relative;
+    display: inline-block;
+    border-color: #1ec3bf;
+}
+
+
+
+/*********************
+
+        FOOTER
+
+*********************/
+.footer-menu{
+    align-items: center;
+}
+.footer-menu ul{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    list-style-type: none;
+    display: block;
+    text-align: center;
+    color: #8c8a8a;
+}
+.footer-menu ul li{
+    display: inline-block;
+    margin: 7px;
+    padding: 30px;
+    color: #8c8a8a;
+}
+
+/*********************
+
+      COMMENT FORM
+
+*********************/
+
+
+/*********************
+
+      RESPONSIVE
+
+*********************/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .logo img{
+    padding: 0px;
+    margin: 0px;
+    width: 225px;
+  }
+  .navbar-toggle{
+    margin-top: 25px;
+  }
+  .proba{
+    padding-top: 0px;
+  }
+  .text h1{
+    font-size: 36px;
+    padding-top: 10px;
+  }
+  .header-floating-box h3{
+    font-size: 16px;
+  }
+  .header-floating-box{
+    width: 290px;
+    height: 270px;
+  }
+  .input-1{
+    padding-left: 0px;
+  }
+  .form-control{
+    width: 270px;
+  }
+  .header-floating-box h3{
+    margin-top: -5px;
+    padding-bottom: 0px;
+  }
+  .my-button{
+    width: 140px;
+    height: 50px;
+
+  }
+  .header-floating-box p{
+    padding-top:5px;
+  }
+  .button{
+    padding-top: 5px;
+  }
+  .form-name{
+    margin-left: -100px;
+    width: 305px;
+  }
+  .form-email{
+    margin-left: -78px;
+    width: 305px;
+  }
+  .col-form-email{
+    padding-bottom: 0px;
+  }
+  .col-form-name{
+    padding-bottom: 10px;
+  }
+  #form-message{
+    width: 305px;
+    height: 200px;
+    margin-left: 7px;
+  }
+  .my-button-2{
+    padding-left: 90px;
+  }
+  .footer-menu ul li{
+    padding: 0px;
+  }
+}
